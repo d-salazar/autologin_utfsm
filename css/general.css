@@ -32,7 +32,9 @@ form{
 	display: none;
 	position: relative;
 }
-
+form h3{
+	border-bottom: 1px solid #ccc;
+}
 
 input,select{
 	display: block;
@@ -62,6 +64,7 @@ select{
 	display: block;
 	margin-top: 5px;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 #tabs{
@@ -83,4 +86,15 @@ select{
 	font-size: 8pt;
 	font-style: italic;
 	text-align: right;
+	border-top: 1px solid #ccc;
+}
+
+#howtouse{
+	float: left;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.active-howtouse{
+	display: none;
 }

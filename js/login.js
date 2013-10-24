@@ -19,9 +19,14 @@ $('input').change(function(){
 			}
 		});
 	}
+
+
 	guardar();
 });
 
+$('#howtouse').click(function(){
+	$('#howtouse_instructions').toggleClass('active-howtouse');
+});
 /*
 $('#limpiar').click(function(){
 	$('form').each(function(){
