@@ -41,7 +41,7 @@ Agradecimientos
 
 Gracias a Bruno Arratia por servir de conejillo de indias/sujeto de prueba, 
 y todas esas weas pajas.
-Por facilitarme su clave de SG - Industrias, lo cual fue inútil porque 
+Por facilitarme su clave de [SG - Industrias](https://sg.industrias.usm.cl/sg/main/index.php), lo cual fue inútil porque 
 luego me di cuenta que yo también podia ingresar con mi cuenta de alumnos (Soy así de imbécil a veces xD).
 
 Gracias a la U, por tener todo en páginas separadas, obligandonos a 
