@@ -1,0 +1,28 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "AutoLoginUTFSM",
+  "version": "0.1",
+
+  // Recommended
+  "description": "AutoLogin for UTFSM web sites",
+  "icons": {
+    "16": "img/icon_16.png",
+    "32": "img/icon_32.png",
+    "48": "img/icon_48.png",
+    "128": "img/icon_128.png"
+    },
+
+  "browser_action": {
+    "default_title":"AutoLoginUTFSM",
+    "default_icon": "img/icon_32.png",
+    "default_popup": "Logins.html"
+    },
+
+  "content_scripts": [ {
+    "js": [ "js/jquery-1.9.1.js", "js/login.js" ],
+    "matches": ["*://*/*"]
+  }],
+
+  "author": "diego.salazars@alumnos.inf.utfsm.cl"
+}
