@@ -26,45 +26,47 @@
 			<!-- AULA -->
 			<form id="f_aula" action="https://aula.usm.cl/login/index.php" method="post" target="_blank">
 				<h3>AULA USM</h3>
-				<input name="username" type="email" placeholder="nombre.apellido@alumnos.usm.cl" value="">
-				<input name="password" type="password" placeholder="Contraseña" value="">
+				<input type="email" name="username" id="aula_u" placeholder="nombre.apellido@alumnos.usm.cl" value="">
+				<input type="password" name="password" id="aula_p" placeholder="Contraseña" value="">
 			</form>
 			<!-- SIGA -->
 			<form id="f_siga" action="https://www.siga.usm.cl/pag/valida_login.jsp" method="post" name="formulario" target="_blank">
 				<h3>SIGA</h3>
-				<input type="text" name="login" placeholder="nombre.apellido" value="">
-				<select name="server">
+				<input type="text" name="login" id="siga_u" placeholder="nombre.apellido" value="">
+				<select name="server" id="siga_e">
 					<option value="alumnos.usm.cl" selected="selected">@alumnos.usm.cl</option>
 					<option value="sansano.usm.cl">@sansano.usm.cl</option>
 					<option value="titulados.usm.cl">@titulados.usm.cl</option>
 					<option value="postgrado.usm.cl">@postgrado.usm.cl</option>
 					<option value="usm.cl">@usm.cl</option>
 				</select>
-				<input type="password" name="passwd" placeholder="Contraseña" value="">
+				<input type="password" name="passwd" id="siga_p" placeholder="Contraseña" value="">
 			</form>
 			<!-- MOODLE INF -->
 			<form id="f_moodle" action="https://moodle.inf.utfsm.cl/login/index.php" method="post" target="_blank">
 				<h3>MOODLE DEPTO. INFORMATICA</h3>
-				<input type="text" name="username" id="username" placeholder="nombre.apellido" value="">
-				<input type="password" name="password" id="password" placeholder="Contraseña" value="">
+				<!--input type="text" name="username" id="username" placeholder="nombre.apellido" value="">
+				<input type="password" name="password" id="password" placeholder="Contraseña" value=""-->
+				<input type="text" name="username" id="moodle_inf_u" placeholder="nombre.apellido" value="">
+				<input type="password" name="password" id="moodle_inf_p" placeholder="Contraseña" value="">
 			</form>
 			<!-- SG - INDUSTRIAS -->
 			<form id="f_sg_industrias" action="https://sg.industrias.usm.cl/sg/main/index.php" method="post" target="_blank">
 				<h3>SG - INDUSTRIAS</h3>
-				<input type="text" name="usmuid" placeholder="nombre.apellido" value="">
-				<select name="usmgroup">
+				<input type="text" name="usmuid" id="sg_industrias_u" placeholder="nombre.apellido" value="">
+				<select name="usmgroup" id="sg_industrias_e">
 					<option value="alumnos" selected="selected">@alumnos.usm.cl</option>
 					<option value="postgrado">@postgrado.usm.cl</option>
 					<option value="sansano">@sansano.usm.cl</option>
 					<option value="titulados">@titulados.usm.cl</option>
 					<option value="Personas">@usm.cl</option>
 				</select>
-				<input type="password" name="usmpass" placeholder="Contraseña" value="">
+				<input type="password" name="usmpass" id="sg_industrias_p" placeholder="Contraseña" value="">
 				<input type="hidden" name="login" value="Login">
 			</form>
 		</div>
 		<div id="creditos">
-			<p>Desarrollado por <a href="mailto:diego.salazars@alumnos.usm.cl">Diego Salazar S.</a></p>
+			<p>Desarrollado por <a href="https://github.com/d-salazar" target="_blank">Diego Salazar S.</a></p>
 		</div>
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/login.js"></script>
