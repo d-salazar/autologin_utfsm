@@ -32,3 +32,16 @@ si no encuentras ningun boton "Guardar" o algo por el estilo.
 
 -> Si algun icono tiene una sombra roja alrededor significa que
 existe algun campo sin completar en su formulario respectivo.
+
+
+Agradecimientos
+--------------------------
+
+Gracias a Bruno Arratia por servir de conejillo de indias/sujeto de prueba, 
+y todas esas weas pajas.
+Por facilitarme su clave de SG -  Industrias, lo cual fue inutil porque 
+luego me di cuenta que yo tambien podia ingresar con mi cuenta de alumnos.
+
+Gracias a la U, por tener todo en paginas separadas, obligandonos a 
+tener una carpeta especial de marcadores en el navegador, con al menos 7 links 
+diferentes, lo que se tradujo en tener que darme la paja de escribir toda esta wea.
