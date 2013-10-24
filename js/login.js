@@ -27,6 +27,15 @@ $('input').change(function(){
 $('#howtouse').click(function(){
 	$('#howtouse_instructions').toggleClass('active-howtouse');
 });
+
+$('#editar').click(function(){
+	$('#tabs').toggleClass('active-tabs');
+	$('.tab').each(function(){
+		if( $('#'+$(this).attr('data-target')).hasClass('active-form') ){
+			$('#'+$(this).attr('data-target')).toggleClass('active-form');
+		}
+	});
+});
 /*
 $('#limpiar').click(function(){
 	$('form').each(function(){

@@ -70,11 +70,16 @@ select{
 #tabs{
 	margin-top: 5px;
 }
+.active-tabs{
+	display: none;
+}
 .tab{
 	display: inline-block;
 	width: 102px;
 	text-align: center;
 	cursor: pointer;
+	color: red;
+	font-weight: bold;
 }
 
 .active-form{
@@ -89,10 +94,11 @@ select{
 	border-top: 1px solid #ccc;
 }
 
-#howtouse{
+#howtouse, #editar{
 	float: left;
 	text-decoration: underline;
 	cursor: pointer;
+	margin-right: 10px;
 }
 
 .active-howtouse{
