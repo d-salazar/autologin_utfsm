@@ -28,14 +28,12 @@ Simplemente sigue los pasos:
 - Vuelve a hacer click en "Editar", para ocultarlo, y ahora cada vez que quieras ingresar al 
 sitio, sólo haz click en la imagen e ingresaras automáticamente.
 
---
-Cualquier cambio de letra (carácter) que realices 
+*Cualquier cambio de letra (carácter) que realices 
 se almacena automáticamente, asi que no te asustes 
-si no encuentras ningun boton "Guardar" o algo por el estilo.
+si no encuentras ningun boton "Guardar" o algo por el estilo.*
 
--> Si algún icono tiene una sombra roja alrededor significa que
-existe un campo sin completar en su respectivo formulario.
---
+*Si algún icono tiene una sombra roja alrededor significa que
+existe un campo sin completar en su respectivo formulario.*
 
 
 Agradecimientos
