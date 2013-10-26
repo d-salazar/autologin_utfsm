@@ -10,7 +10,7 @@ $('.tab').click(function(){
 	}
 });
 
-$('input').change(function(){
+$('input,select').change(function(){
 	if( $(this).val() == "" ){
 		var parent = $(this).parent();
 		$('.login').each(function(index){
@@ -51,14 +51,14 @@ $(document).ready(function(){
 		$('#aula_p').val(localStorage['aula_p']);
 
 		$('#siga_u').val(localStorage['siga_u']);
-		$('#siga_e').val(localStorage['siga_e']);
+		$('#siga_e option[value=\''+localStorage['siga_e']+'\']').attr('selected','selected');
 		$('#siga_p').val(localStorage['siga_p']);
 
 		$('#moodle_inf_u').val(localStorage['moodle_inf_u']);
 		$('#moodle_inf_p').val(localStorage['moodle_inf_p']);
 
 		$('#sg_industrias_u').val(localStorage['sg_industrias_u']);
-		$('#sg_industrias_e').val(localStorage['sg_industrias_e']);
+		$('#sg_industrias_e option[value=\''+localStorage['sg_industrias_e']+'\']').attr('selected','selected');
 		$('#sg_industrias_p').val(localStorage['sg_industrias_p']);
 	}
 });
@@ -68,13 +68,13 @@ function guardar(){
 	localStorage['aula_p'] = $('#aula_p').val();
 
 	localStorage['siga_u'] = $('#siga_u').val();
-	localStorage['siga_e'] = $('#siga_e').val();
+	localStorage['siga_e'] = $('#siga_e>option:selected').val();
 	localStorage['siga_p'] = $('#siga_p').val();
 
 	localStorage['moodle_inf_u'] = $('#moodle_inf_u').val();
 	localStorage['moodle_inf_p'] = $('#moodle_inf_p').val();
 
 	localStorage['sg_industrias_u'] = $('#sg_industrias_u').val();
-	localStorage['sg_industrias_e'] = $('#sg_industrias_e').val();
+	localStorage['sg_industrias_e'] = $('#sg_industrias_e>option:selected').val();
 	localStorage['sg_industrias_p'] = $('#sg_industrias_p').val();
 }
